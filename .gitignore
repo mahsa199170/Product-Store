@@ -29,3 +29,5 @@ dist-ssr
 
 # Ignore history folder (dot-prefixed!)
 .history/
+
+.DS_Store

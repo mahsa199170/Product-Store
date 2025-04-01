@@ -1,0 +1,26 @@
+{
+  "name": "product-store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon backend/server.js",
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "NODE_ENV=production node backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahsa199170/Product-Store.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mahsa199170/Product-Store/issues"
+  },
+  "homepage": "https://github.com/mahsa199170/Product-Store#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}

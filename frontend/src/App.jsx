@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/HomePage';
 import NavBar from './components/navbar/NavBar';
-import CreatePage from './pages/createPage';
+import CreatePage from './pages/CreatePagereatePage';
 import './App.scss';
 
 import { ToastContainer } from 'react-toastify';

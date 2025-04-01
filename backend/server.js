@@ -30,15 +30,6 @@ if (process.env.NODE_ENV === 'production') {
 }
 console.log('STATIC PATH:', path.join(rootDir, 'frontend', 'dist'));
 
-// if (process.env.NODE_ENV === 'production') {
-//   // app.use(express.static(path.join(__dirname, '/frontend/dist')));
-//   const frontendPath = path.join(__dirname, '..', 'frontend', 'dist');
-//   app.use(express.static(frontendPath));
-//   app.get('*', (req, res) => {
-//     // res.sendFile(path.resolve(__dirname, 'frontend', 'dist', 'index.html'));
-//     res.sendFile(path.resolve(frontendPath, 'index.html'));
-//   });
-// }
 
 db.once('open', () => {
   app.listen(process.env.PORT, () => {

@@ -39,6 +39,8 @@ A sleek and responsive Product Dashboard built with React and Redux Toolkit, whe
 📂 Folder structure supports scalability and separation of Redux, components, pages, and services
 
 🧰 Tech Stack
+
+
 Frontend: React, React Router, Context API, Redux Toolkit, React Toastify, SweetAlert2
 
 Backend: Express.js, Node.js, MongoDB, Mongoose
